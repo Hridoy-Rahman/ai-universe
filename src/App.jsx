@@ -1,9 +1,15 @@
 import React from 'react';
+import Button from './components/Button/Button';
+import Card from './components/Card/Card';
+import Header from './components/Header/Header';
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-center text-4xl my-4'>AI Universe Hub</h1>
+      <Header></Header>
+    <Button>Sort By Date</Button>
+    <Card></Card>
+    <Button>See More</Button>
     </div>
   );
 };
